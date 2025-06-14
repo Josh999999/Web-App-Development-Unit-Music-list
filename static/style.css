@@ -1,0 +1,104 @@
+html, body{
+  margin: 0px;
+  height: 100%;
+}
+
+body{
+  background-color: rgb(237, 227, 243);
+}
+
+#btnInitiateAddEntry{
+  margin-top: 5px;
+  float: right;
+}
+
+input{
+  margin-bottom: 15px;
+  width: 100%;
+  height: 30px;
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+  font-family: "Lucida Console", monospace;
+  font-color: black;
+  font-size: 13px;
+}
+
+.button{
+  background-color: rgb(80, 40, 240, 0.6);
+  color: black;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Lucida Console", monospace;
+  width: 120px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 5px;
+  margin-bottom: 80px;
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+}
+
+.button:hover{
+  background-color: rgb(110, 90, 205);
+  color: white;
+}
+
+.sectionTitle{
+  font-family: "Helvetica", sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+ol#songList{
+  list-style-type: none;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  margin: 10px;
+  box-shadow: 10px 10px;
+}
+
+ol#songList li{
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(140, 100, 235, 0.1);
+}
+
+#title{
+  font-size: 30px;
+  background: radial-gradient(ellipse at 690px 75px,  rgba(140, 100, 235, 0.75) 10%, rgba(255, 255, 255, 0) 82%, rgba(140, 100, 235, 0.75) 45%), linear-gradient(160deg, transparent 12%, rgb(140, 100, 235, 0.75) 30%);
+  width: 100%;
+  height: 120px;
+  text-indent: 10px;
+  word-spacing: 5px;
+  font-family: "Helvetica", sans-serif;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#songList2{
+  margin: 20px;
+}
+
+footer{
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+*{
+  font-family: "Helvetica", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+ol#songList li:hover{
+  background-color: rgba(80, 40, 240, 0.35)
+}

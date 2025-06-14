@@ -1,0 +1,109 @@
++<!DOCTYPE html>
+<html>
+
+
+  
+<head>
+  <title>Play-list</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+  <div id="title" class="siteHeader">
+      <h2>Welcome to my Song-List application</h2>
+    </div>
+  
+  <div id="songList2">
+    <!-- Website header -->
+    <div id="ListEntries">
+      <h3 class="sectionTitle">Play-list:</h3>
+      <ol id="songList" class="listBorder">
+        <li>Item1</li>
+        <li>Item2</li>
+      </ol>
+    </div>
+    <div>
+      <button id="btnUploadSongs" class="button">upload song list</button>
+      <button id="btnInitiateAddEntry" class="button">+</button>
+    </div>
+
+
+    
+    <div id="selectedEntry">
+      <h3 class="sectionTitle">Selected Song:</h3>
+      <div>
+        <div><label for="idEntry">ID: </label>
+          <br>
+          <input type="text" id="idEntry" class="disabledBox" disabled>
+        </div>
+        <div><label for="artistEntry">Artist: </label>
+          <br>
+          <input type="text" id="artistEntry" class="disabledBox" disabled>
+        </div>
+        <div><label for="songTitle">Song: </label>
+          <br>
+          <input type="text" id="songTitle" class="disabledBox" disabled>
+        </div>
+      </div>
+    </div>
+    <div id="DeleteButton">
+      <div>
+        <button id="btnDeleteEntry" class="button">Delete</button>
+        <button id="btnUpdate" class="button">Update</button>
+      </div>
+    </div>
+
+
+    <div hidden id="UpdateSong">
+      <h3 class="sectionTitle">Update Song:</h3>
+      <div>
+        <div><label for="idEntry2">ID:</label>
+          <br>
+          <input type="text" id="idUpdate" class="disabledBox" value="auto generated - ignore" disabled required></div>
+        <div><label for="artistEntry2">Artist:</label>
+          <br>
+          <input type="text" id="artistUpdate" class="enabledBox"></div>
+        <div><label for="songEntry2">Song:</label>
+          <br>
+          <input type="text" id="songUpdate" class="enabledBox"></div>
+      </div>
+      <div>
+        <button id="btnUpdateEntry2" class="button">Update</button>
+        <button id="btnCancelUpdateEntry2" class="button">cancel</button>
+      </div>
+    </div>
+
+
+    
+    <div hidden id="addSong">
+      <h3 class="sectionTitle">Add Song:</h3>
+      <div>
+        <div><label for="idEntry">ID:</label>
+          <br>
+          <input type="text" id="idAdd" class="disabledBox" value="auto generated - ignore" disabled required></div>
+        <div><label for="artistEntry">Artist:</label>
+          <br>
+          <input type="text" id="artistAdd" class="enabledBox"></div>
+        <div><label for="songEntry">Song:</label>
+          <br>
+          <input type="text" id="songAdd" class="enabledBox"></div>
+      </div>
+      <div>
+        <button id="btnAddEntry" class="button">Add</button>
+        <button id="btnCancelAddEntry" class="button">Cancel</button>
+      </div>
+    </div>
+     
+    
+  </div>
+  <footer class="footer">
+    <h4>Welcome to my footer</h4>
+  </footer>
+<script src="static/scripts/app.js"></script>
+</body>
+
+</html>
